@@ -30,8 +30,8 @@ This is a weather bot to send daily weather updates to an email list using AWS L
 * Configure the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 * [Verify email addresses to send/receive email while in sandbox mode](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses.html)
 * Sign up for the [OpenWeatherMap API](https://openweathermap.org/appid) and use the provided API key to set an `OPEN_WEATHER_MAP_API` environment variable
-* Create a lambda function called `weather-reminder`. Note: if your lambda is called something different, rename instances of `weather-reminder` to your lambda function name. This especially applies to build and deploy shell scripts in the `scripts` directory.
-* Provide values for all environment variables mentioned in `.env.template` to the lambda function
+* Create a lambda function called `weather-bot`. Use this name in build and deploy shell scripts in the `scripts` directory.
+* Provide values for all environment variables mentioned in `.env` to the lambda function
 * [Configure AWS Eventbridge to trigger the lambda function](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html)
 
 **Local**

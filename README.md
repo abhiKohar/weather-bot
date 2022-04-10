@@ -16,6 +16,8 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 * Python Notebook 1: notebook_1_Abhinav_kohar.ipynb -- Notebook that can take lat long inputs and generate weather report/forecast with charts for the location
 * Python Notebook 2: notebook_2_Abhinav_kohar.ipynb -- Notebook that has function to send an email to given email_id
 * Python Notebook 3: notebook_3_Abhinav_kohar.ipynb -- Notebook that can take lat/long, email_id as input at top and when run sends an email of weather report
+<img src="./media/plotly.png" alt="Visualized weather" />
+
 
 ## Example
 

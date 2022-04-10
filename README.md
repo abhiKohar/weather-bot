@@ -2,7 +2,7 @@
 
 ## Overview
 
-After the impact Hurricane Ida had on the United States' east coast, I thought it may be a good idea to receive daily weather alerts to ensure readiness.
+This is a weather bot to send daily weather updates to an email list using AWS Lamda, Amazon SES and python
 
 ## Technology Stack
 

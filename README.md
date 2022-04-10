@@ -40,9 +40,9 @@ This is a weather bot to send daily weather updates to an email list using AWS L
 * Run `pip install -r requirements.txt` to install dependencies
 * Run `python lambda_function.py` to test locally
     * Note: Either populate a `.env` file and [load its contents for local development](https://github.com/theskumar/python-dotenv) or manually replace environment variables used in the code with values while testing locally.
-    ** pip install python-dotenv
-    ** from dotenv import load_dotenv
-    ** load_dotenv()
+    * pip install python-dotenv
+    * from dotenv import load_dotenv
+    * load_dotenv()
 
 ## Deployment
 

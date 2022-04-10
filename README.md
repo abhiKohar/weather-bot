@@ -58,5 +58,6 @@ This is a weather bot to send daily weather updates to an email list using AWS L
 
 * AWS lamda function config
 <img src="./media/lamda-function.PNG" alt="Weather email example" />
+
 * IAM policy
 <img src="./media/IAM.PNG" alt="Weather email example" />

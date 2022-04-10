@@ -14,7 +14,7 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 
 ## Example
 
-<img src="./media/email_sample.PNG" alt="Weather email example" width="350px" />
+<img src="./media/email_sample.PNG" alt="Weather email example" />
 
 ## Setup
 
@@ -45,4 +45,13 @@ After the impact Hurricane Ida had on the United States' east coast, I thought i
 
 * Update the email sending persmissions for lamda user
 https://docs.aws.amazon.com/ses/latest/dg/control-user-access.html#iam-and-ses-examples-email-sending-actions
+* Set the run schedule 
 https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html
+
+* AWS eventbridge
+<img src="./media/event_bridge.PNG" alt="Weather email example" />
+
+* AWS lamda function
+<img src="./media/lamda-function.PNG" alt="Weather email example" />
+IAM 
+<img src="./media/IAM.PNG" alt="Weather email example" />

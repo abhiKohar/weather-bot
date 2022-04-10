@@ -50,10 +50,8 @@ This is a weather bot to send daily weather updates to an email list using AWS L
 * Run `./aws/ses/scripts/ses-create-weather-reminder-template.sh` to create the `WeatherReminderTemplate` email template in SES
 * Run `./aws/ses/scripts/ses-update-template-weather-reminder.sh` to update the `WeatherReminderTemplate` email templae in SES
 
-* Update the email sending persmissions for lamda user
-https://docs.aws.amazon.com/ses/latest/dg/control-user-access.html#iam-and-ses-examples-email-sending-actions
-* Set the run schedule 
-https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html
+* [Update the email sending persmissions for lamda user](https://docs.aws.amazon.com/ses/latest/dg/control-user-access.html#iam-and-ses-examples-email-sending-actions)
+* [Set the run schedule](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html)
 
 * AWS eventbridge
 <img src="./media/event_bridge.PNG" alt="Weather email example" />

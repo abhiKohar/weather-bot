@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a weather bot to send daily weather updates to an email list using AWS Lamda, Amazon SES and python
+This is a weather bot to send daily weather updates to an email list using AWS Lamda, Amazon SES and python.
 
 ## Technology Stack
 

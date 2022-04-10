@@ -21,7 +21,7 @@ class EmailClient:
 
     @classmethod
     def send_forecast(cls, template_data, recipient=DEFAULT_RECIPIENT):
-        print("-------------------------------------\n",template_data)
+        # print("-------------------------------------\n",template_data)
         response = cls.ses.send_templated_email(
             Source=cls.EMAIL_SOURCE,
             Destination={

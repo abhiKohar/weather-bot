@@ -29,7 +29,7 @@ class WeatherClient:
             
             return r.json()
         except requests.exceptions.RequestException as e:
-            print('Unable to get 4 day forecast')
+            print('Unable to get 7 day forecast')
             print(str(e))
             raise e
 
@@ -42,7 +42,7 @@ class WeatherClient:
         lat_long = str(forecasts['lat'])+"_"+str(forecasts['lon'])
         formatted_forecasts = []
 
-        # track 12 hour forecast each day
+        # track 24 hour forecast each day
         for i in range(0, len(forecasts['daily'])):
             forecast = forecasts['daily'][i]
             # print(forecast)
